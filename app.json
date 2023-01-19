@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "hialexAI",
+    "slug": "hialexAI",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fffff"
+    },
+    "updates": { "fallbackToCacheTimeout": 0 },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sunder.hialexai",
+      "buildNumber": "0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#fffff"
+      },
+      "package": "com.sunder.hialexai",
+      "versionCode": 1
+    },
+    "web": { "favicon": "./assets/favicon.png" }
+  }
+}
